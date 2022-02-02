@@ -1,0 +1,65 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.footertekst {
+  color: whitesmoke;
+  padding-bottom: 10px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: whitesmoke;
+}
+
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.contmenu {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.olcont {
+  list-style-type: none;
+  padding: 2px;
+  margin: 0;
+}
+
+.licont {
+  list-style-type: none;
+}
+
+button {
+  border-style: double #b3efb2;
+  font-style: bold;
+  width: 80%;
+  padding: 5px;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}

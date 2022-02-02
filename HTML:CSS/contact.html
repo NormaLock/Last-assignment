@@ -1,0 +1,125 @@
+<!DOCTYPE html> <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="basis.css" />
+
+<html>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Contact</h1>
+      </div>
+
+      <div class="menu">
+        <div class="contmenu">
+          <ol class="olcont">
+            <li>
+              <a href="home.html"><button class="buttoncont">Home</button></a>
+            </li>
+          </ol>
+
+          <ol class="olcont">
+            <li>
+              <a href="plannen.html"
+                ><button class="buttoncont">Plannen</button></a
+              >
+            </li>
+          </ol>
+
+          <ol class="olcont">
+            <li>
+              <a href="zaaien.html"
+                ><button class="buttoncont">Zaaien</button></a
+              >
+            </li>
+          </ol>
+
+          <ol class="olcont">
+            <li>
+              <a href="oogsten.html"
+                ><button class="buttoncont">Oogsten</button></a
+              >
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2>Laat je gegevens achter</h2>
+        <p>
+          Heb je een vraag of wil jij je aanmelden voor de nieuwsbrief? Laat mij
+          dan weten wie je bent en ik neem contact met je op.
+        </p>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>
+              Jouw naam
+              <input type="tekst" name="name"
+            /></label>
+          </p>
+          <p>
+            <label>
+              Jouw e-mailadres
+              <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Leeftijd
+              <input type="number" name="leeftijd" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Heb jij een moestuin: ja
+              <input type="radio" name="ja" />
+              nee
+              <input type="radio" name="nee" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Favoriete groente om te verbouwen:
+              <li class="licont">
+                <input type="checkbox" name="kolen" />Kolen
+              </li>
+              <li class="licont">
+                <input type="checkbox" name="bonen" />Bonen
+              </li>
+              <li class="licont">
+                <input type="checkbox" name="wortelen" />Wortelen
+              </li>
+              <li class="licont">
+                <input type="checkbox" name="bladgroente" />Bladgroente
+              </li>
+              <li class="licont">
+                <input type="checkbox" name="vruchtgroente" />Vruchtgroente
+              </li>
+            </label>
+          </p>
+          <p>
+            <label>
+              Upload jouw moestuinplan (als je die hebt)
+              <input type="file" name="bestand" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Wil jij een nieuwsbrief met tips ontvangen: ja
+              <input type="radio" name="ja" />
+              nee
+              <input type="radio" name="nee" />
+            </label>
+          </p>
+          Formulier verzenden
+          <input type="submit" value="Verzend" />
+          <input type="reset" value="Opnieuw" />
+        </form>
+      </div>
+      <div class="footer">
+        <div class="footertekst">
+          <h2>Hier vind je me ook</h2>
+          <p>Volg mij ook op Instagram</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
